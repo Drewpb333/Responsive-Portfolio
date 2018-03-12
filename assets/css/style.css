@@ -146,7 +146,7 @@ h3, .sidebar, h2 {
 
 .portfolio-image{
     overflow: auto;
-    width: 260px;
+    width: 200px;
     position: relative;
     float: left;
     margin: 20px 0 25px;
@@ -211,6 +211,10 @@ input[type=submit]{
     cursor: pointer;
 }
 
+#hangman, #rpg, #widget, #trivia, #rock-paper-scissors {
+    width: 200px;
+    height: 200px;
+}
 
 @media screen and (max-width: 980px) {
     .container{
@@ -228,12 +232,12 @@ input[type=submit]{
         height: 80%;
         margin-bottom:20px;   
     }
-}
-    /* #hangman, #rpg, #widget, #trivia, #rock-paper-scissors {
-        margin: 0 auto;
+
+    .portfolio-image{
+        margin-left: 22%;
     }
-  }
-   */
+}
+  
   /* Additional Screen Sizes */
   
   /* Width from 768px to >640px (Tablet width) */
@@ -259,6 +263,19 @@ input[type=submit]{
         max-width: 100%;
     }
 
+    .sidebar h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .sidebar img{
+        width: 12%;
+        height: 20%            
+    }
+
+    .portfolio-image{
+        margin-left: 35%;
+    }
 }
   
   /* Width at 640px and below (Phone width) */
@@ -285,5 +302,28 @@ input[type=submit]{
 
         .portfolio-image{
             margin-left: 25%;
+        }
+
+        .sidebar h2{
+            text-align: center;
+            font-size: 34px;
+        }
+
+        .sidebar img{
+            width: 15%;
+            height: 25%            
+        }
+
+        .portfolio-image{
+            margin-left: 33%;
+        }
+
+        #name-logo{
+            width: 100%;
+        }
+
+        nav a{
+            padding-left: 65px;
+            padding-right: 65px;
         }
 }
